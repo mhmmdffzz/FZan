@@ -2,10 +2,7 @@
 <p align="center">Muhammad Fauzan - 103112400064</p>
 
 ## Dasar Teori
-
-
-
-
+Pada pengenalan C++, praktik laboratorium umumnya memperkenalkan struktur program, tipe data, operator aritmetika/relasional, kendali alur (if/else, switch, for/while/do-while), serta I/O konsol melalui std::cin-std::cout pada <iostream>; penggunaan media pembelajaran yang memuat sejarah C++, struktur program, operasi aritmetika, percabangan, perulangan, hingga string dan fungsi dilaporkan membantu pemahaman materi pada tahap awal [1]. Pengembangan e-modul pemrograman dasar dengan metode R&D dinyatakan layak digunakan menurut validasi ahli dan uji coba pengguna sehingga relevan untuk pembelajaran terstruktur [2]. Berdasarkan usability testing, perbaikan antarmuka pada aplikasi Learn C++ membuat tugas lebih mudah diselesaikan, langkah interaksi lebih sedikit, dan pengalaman pengguna lebih memuaskan [3]. Dalam praktik pengembangan, pemakaian Integrated Development Environment (IDE) seperti Code::Blocks mempermudah penulisan, manajemen proyek, kompilasi, dan debugging dalam satu lingkungan terpadu, sehingga uji coba program menjadi lebih efisien baik pada konteks pembelajaran maupun penerapan C++ pada pengembangan alat [4][5].
 ## Guided 
 
 ### 1. Input/Output Dasar
@@ -22,7 +19,7 @@ int main() {
     return 0;
 }
 ```
-Program C++ sederhana yang meminta pengguna untuk memasukkan sebuah angka. Setelah angka dimasukkan, program akan menampilkan kembali angka tersebut ke layar
+Program C++ sederhana yang meminta pengguna untuk memasukkan sebuah angka. Setelah angka dimasukkan, program akan menampilkan kembali angka tersebut ke layar.
 
 ### 2. Kalkulator Aritmatika Dasar
 
@@ -46,7 +43,7 @@ int main() {
     return 0;
 }
 ```
-Kalkulator sederhana yang melakukan operasi aritmatika dasar
+Kalkulator sederhana yang melakukan operasi aritmatika dasar.
 
 ### 3. Percabangan If/Else & Switch Menu
 
@@ -96,7 +93,7 @@ int main() {
     return 0;
 }
 ```
-Program C++ yang menunjukkan cara kerja pengambilan keputusan dalam kode
+Program C++ yang menunjukkan cara kerja pengambilan keputusan dalam kode.
 
 ### 4. Tiga Jenis Perulangan
 
@@ -130,7 +127,7 @@ using namespace std;
     
  }
 ```
-Sebuah program C++ yang mendemonstrasikan tiga jenis perulangan (loop) dasar: for, while, dan do-while
+Sebuah program C++ yang mendemonstrasikan tiga jenis perulangan (loop) dasar: for, while, dan do-while.
 
 ### 5. Array & Struct Rapor Siswa
 
@@ -163,7 +160,7 @@ int main(){
 }
 
 ```
-Program C++ yang dirancang untuk menyimpan dan menampilkan data rapor sederhana untuk beberapa siswa
+Program C++ yang dirancang untuk menyimpan dan menampilkan data rapor sederhana untuk beberapa siswa.
 
 ## Unguided 
 
@@ -191,9 +188,9 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan-1_Modul1/LAPRAK/Muhammad_Fauzan-Output-Unguided1.png)
+![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan1_Modul1/LAPRAK/Muhammad_Fauzan-Output-Unguided1.png)
 
-program C++ ini adalah sebuah kalkulator sederhana yang melakukan empat operasi matematika dasar (tambah, kurang, kali, bagi) terhadap dua angka yang dimasukkan oleh pengguna
+program C++ ini adalah sebuah kalkulator sederhana yang melakukan empat operasi matematika dasar (tambah, kurang, kali, bagi) terhadap dua angka yang dimasukkan oleh pengguna.
 
 ### 2. Konversi Bilangan 0–100 menjadi Teks
 
@@ -243,9 +240,9 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Output Program 2](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan-1_Modul1/LAPRAK/Muhammad_Fauzan-Output-Unguided2.png)
+![Output Program 2](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan1_Modul1/LAPRAK/Muhammad_Fauzan-Output-Unguided2.png)
 
-Program C++ ini berfungsi untuk mengubah angka menjadi bentuk teks (terbilang)
+Program C++ ini berfungsi untuk Mengonversi angka 0–100 menjadi teks Bahasa Indonesia menggunakan array satuan, belasan, dan puluhan.
 
 ### 3. Pola Iterasi Bertingkat
 
@@ -294,15 +291,34 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Output Program 3](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan-1_Modul1/LAPRAK/Muhammad_Fauzan-Output-Unguided3.png)
+![Output Program 3](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan1_Modul1/LAPRAK/Muhammad_Fauzan-Output-Unguided3.png)
 
-Program C++ ini berfungsi untuk mencetak pola angka dan bintang berbentuk seperti piramida terbalik di terminal
+Program C++ ini berfungsi untuk mencetak pola piramida terbalik yang simetris angka menurun, tanda * di tengah, lalu angka menaik dengan perataan tengah menggunakan spasi.
 
 ## Kesimpulan
-. . .
+Setelah menyelesaikan Modul 1 - Code::Blocks IDE & Pengenalan C++, pemahaman berfokus pada alur kerja pengembangan di Code::Blocks (pembuatan proyek, kompilasi, eksekusi, dan peninjauan hasil) serta konsep-konsep fundamental dalam bahasa pemrograman C++.
+
+pembelajaran ini telah memberikan kemampuan untuk:
+* **Manajemen proyek di Code::Blocks:** membuat proyek, *compile*, *run*, membaca pesan kompilator, dan *debugging* dasar.
+* **Dasar C++:** struktur program, deklarasi variabel/konstanta, pemilihan tipe data.
+* **Operator esensial:** aritmetika, logika, dan penugasan untuk manipulasi data.
+* **Struktur kondisional:** pengambilan keputusan dengan `if–else` dan `switch`.
+* **Perulangan:** implementasi `for`, `while`, dan `do–while`.
+* **Struktur data sederhana:** pengelompokan data menggunakan `struct`.
+* **Penerapan pada tugas:** kalkulator empat operasi, konversi angka 0–100 menjadi teks, dan pola angka–`*`–angka simetri (*nested loop*).
 
 
 ## Referensi
-[1]  
-<br>[2] 
-<br>...
+[1] Dewi, L. J. E. (2010). Media pembelajaran bahasa pemrograman C++. Jurnal Pendidikan Teknologi dan Kejuruan (Undiksha), 7(1), 63–72.
+Halaman artikel: https://ejournal.undiksha.ac.id/index.php/JPTK/article/view/31
+PDF: https://ejournal.undiksha.ac.id/index.php/JPTK/article/download/31/25/94
+<br>[2]Prasetyoadi, E. B., Rokhmawati, R. I., & Wicaksono, S. A. (2019). Pengembangan e-modul pembelajaran “Pemrograman Dasar” dengan metode R&D (Studi SMKN 4 Malang). Jurnal Pengembangan Teknologi Informasi dan Ilmu Komputer (J-PTIIK), 3(10), 10118–10129.
+Halaman artikel: https://j-ptiik.ub.ac.id/index.php/j-ptiik/article/view/6646
+PDF: https://j-ptiik.ub.ac.id/index.php/j-ptiik/article/download/6646/3193/46603
+<br>[3] Asprila, D. A., Wijoyo, S. H., & Az-Zahra, H. M. (2021). Evaluasi usability pada aplikasi Learn C++ (usability testing). Jurnal Pengembangan Teknologi Informasi dan Ilmu Komputer (J-PTIIK), 5(6), 2677–2686.
+Halaman artikel: https://j-ptiik.ub.ac.id/index.php/j-ptiik/article/view/9392
+PDF: https://j-ptiik.ub.ac.id/index.php/j-ptiik/article/download/9392/4217/66090
+<br>[4] Sano, A. N. A. (2020). PENGENALAN CODE::BLOCKS. Academia.edu.
+Halaman: https://www.academia.edu/44359359/PENGENALAN_CODE_BLOCKS
+<br>[5] Effendi, Q. M. F. Z., dkk. (2024). Penerapan Pemrograman C++ dalam Pengembangan Alat. Jurnal Majemuk, 3(1).
+Halaman artikel: https://jurnalilmiah.org/journal/index.php/majemuk/article/view/665
