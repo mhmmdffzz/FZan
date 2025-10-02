@@ -2,9 +2,9 @@
 using namespace std;
 
 void jumlahMatriks(int arrA[3][3], int arrB[3][3], int arrC[3][3]){
-    for (int i = 0; i < 3; i++){
-        for (int j = 0; j < 3; j++){
-            arrC[i][j] = arrA[i][j] + arrB[i][j];
+    for (int i = 0; i < 3; i++){        //Perulangan baris
+        for (int j = 0; j < 3; j++){    //Perulangan kolom
+            arrC[i][j] = arrA[i][j] + arrB[i][j];   
         }
     }
     cout << "Hasil Penjumlahan: " << endl;
@@ -16,8 +16,8 @@ void jumlahMatriks(int arrA[3][3], int arrB[3][3], int arrC[3][3]){
     }
 }
 void kurangMatriks(int arrA[3][3], int arrB[3][3], int arrC[3][3]){
-    for (int i = 0; i < 3; i++){
-        for (int j = 0; j < 3; j++){
+    for (int i = 0; i < 3; i++){            //Perulangan baris 
+        for (int j = 0; j < 3; j++){        //Perulangan kolom
             arrC[i][j] = arrA[i][j] - arrB[i][j];
         }
     }
