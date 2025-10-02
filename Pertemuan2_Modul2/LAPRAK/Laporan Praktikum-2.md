@@ -308,7 +308,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Output Program 2](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan1_Modul2/LAPRAK/Muhammad_Fauzan-Output-Unguided2.png)
+![Output Program 2](https://github.com/mhmmdffzz/FZan/blob/main/Pertemuan1_Modul2/LAPRAK/Muhammad_Fauzan-Output-Unguided2.png)
 
 Program C++ ini berfungsi untuk
 
