@@ -245,13 +245,13 @@ int main() {
 ![Output Program 1](https://github.com/mhmmdffzz/Fzan/blob/main/Pertemuan2_Modul2/LAPRAK/Muhammad_Fauzan-Output-Unguided1-1.png)
 
 ##### Output 2
-![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan2_Modul2/LAPRAK/Muhammad_Fauzan-Output-Unguided1-2.png)
+![Output Program 1](https://github.com/mhmmdffzz/FZan/blob/main/Pertemuan2_Modul2/LAPRAK/Muhammad_Fauzan-Output-Unguided1-2.png)
 
 ##### Output 3
-![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan2_Modul2/LAPRAK/Muhammad_Fauzan-Output-Unguided1-3.png)
+![Output Program 1](https://github.com/mhmmdffzz/FZan/blob/main/Pertemuan2_Modul2/LAPRAK/Muhammad_Fauzan-Output-Unguided1-3.png)
 
 ##### Output 4
-![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan2_Modul2/LAPRAK/Muhammad_Fauzan-Output-Unguided1-4.png)
+![Output Program 1](https://github.com/mhmmdffzz/FZan/blob/main/Pertemuan2_Modul2/LAPRAK/Muhammad_Fauzan-Output-Unguided1-4.png)
 
 program C++ ini adalah 
 
