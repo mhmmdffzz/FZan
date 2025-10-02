@@ -2,8 +2,7 @@
 <p align="center">Muhammad Fauzan - 103112400064</p>
 
 ## Dasar Teori
-
-
+...
 
 ## Guided 1
 
@@ -160,7 +159,6 @@ program C++ ini adalah
 
 ```C++
 #include <iostream>
-
 ```
 ### Output Unguided 2 :
 
@@ -170,17 +168,7 @@ program C++ ini adalah
 Program C++ ini berfungsi untuk Mengonversi angka 0–100 menjadi teks Bahasa Indonesia menggunakan array satuan, belasan, dan puluhan.
 
 ## Kesimpulan
-Setelah menyelesaikan Modul 1 - Code::Blocks IDE & Pengenalan C++, pemahaman berfokus pada alur kerja pengembangan di Code::Blocks (pembuatan proyek, kompilasi, eksekusi, dan peninjauan hasil) serta konsep-konsep fundamental dalam bahasa pemrograman C++.
-
-pembelajaran ini telah memberikan kemampuan untuk:
-* **Manajemen proyek di Code::Blocks:** membuat proyek, *compile*, *run*, membaca pesan kompilator, dan *debugging* dasar.
-* **Dasar C++:** struktur program, deklarasi variabel/konstanta, pemilihan tipe data.
-* **Operator esensial:** aritmetika, logika, dan penugasan untuk manipulasi data.
-* **Struktur kondisional:** pengambilan keputusan dengan `if–else` dan `switch`.
-* **Perulangan:** implementasi `for`, `while`, dan `do–while`.
-* **Struktur data sederhana:** pengelompokan data menggunakan `struct`.
-* **Penerapan pada tugas:** kalkulator empat operasi, konversi angka 0–100 menjadi teks, dan pola angka–`*`–angka simetri (*nested loop*).
-
+...
 
 ## Referensi
 [1] Dewi, L. J. E. (2010). Media pembelajaran bahasa pemrograman C++. Jurnal Pendidikan Teknologi dan Kejuruan (Undiksha), 7(1), 63–72.
