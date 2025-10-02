@@ -285,7 +285,7 @@ int main() {
 ##### Output 4
 ![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan2_Modul2/LAPRAK/Muhammad_Fauzan-Output-Unguided1-4.png)
 
-program C++ ini adalah sebuah program menu yang memungkinkan pengguna untuk melakukan operasi dasar pada matriks 3x3, yaitu penjumlahan, pengurangan, dan perkalian. Pengguna dapat memilih operasi yang diinginkan dari menu, dan program akan menampilkan hasilnya. Program akan terus berjalan hingga pengguna memilih opsi untuk keluar.
+Program C++ ini adalah sebuah program menu yang memungkinkan pengguna untuk melakukan operasi dasar pada matriks 3x3, yaitu penjumlahan, pengurangan, dan perkalian. Pengguna dapat memilih operasi yang diinginkan dari menu, dan program akan menampilkan hasilnya. Program akan terus berjalan hingga pengguna memilih opsi untuk keluar.
 
 ### 2. Program Pointer untuk Menghitung Luas dan Keliling Persegi Panjang
 
