@@ -350,5 +350,6 @@ Praktikum ini membahas penggunaan array dan pointer dalam C++. Array memungkinka
 [1] Putra, Muhammad Taufik D., et al. (2022). "BELAJAR DASAR PEMROGRAMAN DENGAN C++". Edited by Damayanti, Evi, CV WIDINA MEDIA UTAMA. Diakses pada 17 Maret 2024 melalui https://repository.penerbitwidina.com/publications/558527/belajar-dasar-pemrograman-dengan-c#cite. 
 <br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 17 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
 <br>[3] Tou, N., Kom, S., & Kom, M. (2022). Bahan ajar: dasar-dasar pemrograman. Universitas Bangka Belitung. Diakses pada 17 Maret 2024 melalui http://repository.ubb.ac.id/7104/1/Modul%20Dasar-Dasar%20Pemrograman.pdf.
-<br>[4] Setiyawan, R. D., Hermawan, D., Abdillah, A. F., Mujayanah, A., & Vindua, R. (2024). Penggunaan struktur data stack dalam pemrograman C++ dengan pendekatan array dan linked list. JUTECH: Journal Education and Technology, 5(2), 484–498. https://doi.org/10.31932/jutech.v5i2.4263
-PDF : https://jurnal.stkippersada.ac.id/jurnal/index.php/jutech/article/download/4263/pdf
+<br>[4] Setiyawan, R. D., Hermawan, D., Abdillah, A. F., Mujayanah, A., & Vindua, R. (2024). Penggunaan struktur data stack dalam pemrograman C++ dengan pendekatan array dan linked list. JUTECH: Journal Education and Technology, 5(2), 484–498. 
+Halaman artikel: https://doi.org/10.31932/jutech.v5i2.4263
+PDF: https://jurnal.stkippersada.ac.id/jurnal/index.php/jutech/article/download/4263/pdf
