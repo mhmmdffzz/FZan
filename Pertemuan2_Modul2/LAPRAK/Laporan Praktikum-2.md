@@ -34,7 +34,7 @@ int Arr[3][3] = {{3,4,8},{3,9,2},{6,3,0}};
 ```
 ### C. Arrnpointer
 
-Array dan pointer di C++ saling terkait: dalam banyak ekspresi, nama array akan *decay* menjadi pointer ke elemen pertama (tipe `T*`). Akibatnya, ekspresi `arr[i]` setara dengan `*(arr + i)` dan aritmetika pointer (`ptr + k`) melangkah per elemen, bukan per byte. Bedakan `arr` (yang *decay* ke `T*`) dengan `&arr` (pointer ke seluruh array, tipe `T (*)[N]`). Pada parameter fungsi, deklarasi `T arr[]` setara dengan `T*`, sehingga ukuran array tidak ikut terbawa dan perlu dikirim terpisah. Gunakan dengan hati-hati agar tidak terjadi akses di luar batas (*out-of-bounds*). [4]
+Array dan pointer di C++ saling terkait: dalam banyak ekspresi, nama array akan *decay* menjadi pointer ke elemen pertama (tipe `T*`). Akibatnya, ekspresi `arr[i]` setara dengan `*(arr + i)` dan aritmetika pointer (`ptr + k`) melangkah per elemen, bukan per byte. Bedakan `arr` (yang *decay* ke `T*`) dengan `&arr` (pointer ke seluruh array, tipe `T (*)[N]`). Pada parameter fungsi, deklarasi `T arr[]` setara dengan `T*`, sehingga ukuran array tidak ikut terbawa dan perlu dikirim terpisah. Gunakan dengan hati-hati agar tidak terjadi akses di luar batas (*out-of-bounds*). [3][4]
 
 ## Guided
 
@@ -57,7 +57,7 @@ int main(){
     return 0;
 }
 ```
-Program C++ sederhana yang 
+Program C++ sederhana yang meminta pengguna untuk memasukkan lima nilai integer ke dalam sebuah array satu dimensi. Setelah itu, program akan menampilkan kembali nilai-nilai yang telah dimasukkan.
 
 ### 2. Array2 dimensi 
 
@@ -113,7 +113,7 @@ int main(){
     return 0;
 }
 ```
-Penjelasan
+Program C++ ini mendemonstrasikan operasi penjumlahan dan perkalian pada matriks 2x2. Program ini menginisialisasi dua matriks, kemudian melakukan operasi matematika pada keduanya, dan akhirnya menampilkan hasilnya.
 
 ### 3. Arrnpointer
 
@@ -137,7 +137,7 @@ int main(){
     return 0;
 }
 ```
-Program C++ yang 
+Program C++ yang menunjukkan cara mengakses elemen-elemen array menggunakan pointer dan indeks. Program ini mengilustrasikan bahwa kedua metode tersebut menghasilkan output yang sama.
 
 ### 4. Fungsi prosedur
 
@@ -171,11 +171,11 @@ using namespace std;
     
  }
 ```
-Sebuah program C++ yang 
+Sebuah program C++ yang menggunakan tiga jenis perulangan (for, while, dan do-while) untuk mencetak urutan angka berdasarkan input dari pengguna.
 
 ## Unguided 
 
-### 1. 
+### 1. Program Menu Operasi Matriks
 
 ```C++
 #include <iostream>
@@ -285,9 +285,9 @@ int main() {
 ##### Output 4
 ![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan2_Modul2/LAPRAK/Muhammad_Fauzan-Output-Unguided1-4.png)
 
-program C++ ini adalah 
+program C++ ini adalah sebuah program menu yang memungkinkan pengguna untuk melakukan operasi dasar pada matriks 3x3, yaitu penjumlahan, pengurangan, dan perkalian. Pengguna dapat memilih operasi yang diinginkan dari menu, dan program akan menampilkan hasilnya. Program akan terus berjalan hingga pengguna memilih opsi untuk keluar.
 
-### 2. 
+### 2. Program Pointer untuk Menghitung Luas dan Keliling Persegi Panjang
 
 ```C++
 #include <iostream>
@@ -341,10 +341,10 @@ int main() {
 ##### Output 1
 ![Output Program 2](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan1_Modul2/LAPRAK/Muhammad_Fauzan-Output-Unguided2.png)
 
-Program C++ ini berfungsi untuk
+Program C++ ini berfungsi untuk mendemonstrasikan penggunaan pointer untuk memanipulasi variabel. Program ini menghitung luas dan keliling persegi panjang, kemudian mengubah nilai panjang dan lebar melalui pointer, dan menghitung ulang luas serta keliling dengan nilai yang baru.
 
 ## Kesimpulan
-...
+Praktikum ini membahas penggunaan array dan pointer dalam C++. Array memungkinkan pengelolaan kumpulan data dengan tipe yang sama secara efisien, baik dalam bentuk satu dimensi maupun dua dimensi seperti matriks. Sementara itu, pointer memberikan kemampuan untuk berinteraksi langsung dengan alamat memori, yang memungkinkan manipulasi data yang lebih fleksibel dan dinamis. Kombinasi keduanya merupakan fondasi penting dalam pemrograman C++ untuk mengimplementasikan struktur data dan algoritma yang kompleks.
 
 ## Referensi
 [1] Putra, Muhammad Taufik D., et al. (2022). "BELAJAR DASAR PEMROGRAMAN DENGAN C++". Edited by Damayanti, Evi, CV WIDINA MEDIA UTAMA. Diakses pada 17 Maret 2024 melalui https://repository.penerbitwidina.com/publications/558527/belajar-dasar-pemrograman-dengan-c#cite. 
