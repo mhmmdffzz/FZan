@@ -146,12 +146,112 @@ Sebuah program C++ yang
 ### 1. 
 
 ```C++
-UNGUIDED
+#include <iostream>
+using namespace std;
+
+void jumlahMatriks(int arrA[3][3], int arrB[3][3], int arrC[3][3]){
+    for (int i = 0; i < 3; i++){
+        for (int j = 0; j < 3; j++){
+            arrC[i][j] = arrA[i][j] + arrB[i][j];
+        }
+    }
+    cout << "Hasil Penjumlahan: " << endl;
+    for (int i = 0; i < 3; i++){
+        for (int j = 0; j < 3; j++){
+            cout << arrC[i][j] << " ";
+        }
+        cout << endl;
+    }
+}
+void kurangMatriks(int arrA[3][3], int arrB[3][3], int arrC[3][3]){
+    for (int i = 0; i < 3; i++){
+        for (int j = 0; j < 3; j++){
+            arrC[i][j] = arrA[i][j] - arrB[i][j];
+        }
+    }
+    cout << "Hasil Pengurangan: " << endl;
+    for (int i = 0; i < 3; i++){
+        for (int j = 0; j < 3; j++){
+            cout << arrC[i][j] << " ";
+        }
+        cout << endl;
+    }
+}
+void kaliMatriks(int arrA[3][3], int arrB[3][3], int arrC[3][3]){
+    for (int i = 0; i < 3; i++){            //Perulangan baris 
+        for (int j = 0; j < 3; j++){        //Perulangan kolom  
+            for (int k = 0; k < 3; k++){    //Perulangan perkalian
+                arrC[i][j] += arrA[i][k] * arrB[k][j];
+            }
+        }
+    }
+    cout << "Hasil Perkalian: " << endl;
+    for (int i = 0; i < 3; i++){
+        for (int j = 0; j < 3; j++){
+            cout << arrC[i][j] << " ";
+        }
+        cout << endl;
+    }
+}
+
+int main() {
+    int arrA[3][3] = {
+        {7, 12, 22},
+        {31, 6, 41},
+        {15, 19, 36}
+    };
+    int arrB[3][3] = {
+        {11, 34, 7},
+        {3, 25, 41},
+        {5, 18, 33}
+    };
+    int arrC[3][3] = {0};
+    int pilihan;
+
+    do {
+        cout << "--- Menu Program Matriks ---" << endl;
+        cout << "1. Penjumlahan matriks" << endl;
+        cout << "2. Pengurangan matriks" << endl;
+        cout << "3. Perkalian matriks" << endl;
+        cout << "4. Keluar" << endl;
+        cout << "Masukkan pilihan Anda (1-4): ";
+        cin >> pilihan;
+
+        switch (pilihan) {
+            case 1:
+                jumlahMatriks(arrA, arrB, arrC);
+                break;
+            case 2:
+                kurangMatriks(arrA, arrB, arrC);
+                break;
+            case 3:
+                kaliMatriks(arrA, arrB, arrC);
+                break;
+            case 4:
+                cout << "Keluar dari program." << endl;
+                break;
+            default:
+                cout << "Pilihan tidak valid. Silakan coba lagi." << endl;
+        }
+        cout << endl; // Tambahkan baris kosong untuk pemisah antar menu
+    } while (pilihan != 4);
+
+    return 0;
+}
 ```
 ### Output Unguided 1 :
 
 ##### Output 1
-![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan1_Modul1/LAPRAK/Muhammad_Fauzan-Output-Unguided1.png)
+![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan2_Modul2/LAPRAK/Muhammad_Fauzan-Output-Unguided1-1.png)
+
+##### Output 2
+![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan2_Modul2/LAPRAK/Muhammad_Fauzan-Output-Unguided1-2.png)
+
+##### Output 3
+![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan2_Modul2/LAPRAK/Muhammad_Fauzan-Output-Unguided1-3.png)
+
+##### Output 4
+![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan2_Modul2/LAPRAK/Muhammad_Fauzan-Output-Unguided1-4.png)
 
 program C++ ini adalah 
 
@@ -159,11 +259,56 @@ program C++ ini adalah
 
 ```C++
 #include <iostream>
+
+using namespace std;
+
+int main() {
+    // 1) Buat 3 variabel integer
+    int panjang = 10;
+    int lebar = 5;
+    int luas = 0;
+    int keliling = 0;
+
+    // Menampilkan Nilai Awal
+    cout << "--- Nilai Awal ---" << endl;
+    cout << "Panjang: " << panjang << endl;
+    cout << "Lebar: " << lebar << endl;
+
+    // 2) Deklarasikan dua pointer
+    int *ptrPanjang = &panjang;
+    int *ptrLebar = &lebar;
+
+    // 3) Hitung luas dan keliling menggunakan pointer
+    luas = (*ptrPanjang) * (*ptrLebar);
+    keliling = 2 * ((*ptrPanjang) + (*ptrLebar));
+
+    // 4) Cetak nilai luas dan keliling
+    cout << "\n--- Hasil Perhitungan ---" << endl;
+    cout << "Luas Persegi Panjang: " << luas << endl;
+    cout << "Keliling Persegi Panjang: " << keliling << endl;
+
+    // 5) Ubah nilai panjang dan lebar melalui pointer
+    *ptrPanjang = 12;
+    *ptrLebar = 6;
+
+    // Hitung kembali luas dan keliling dengan nilai baru
+    luas = (*ptrPanjang) * (*ptrLebar);
+    keliling = 2 * ((*ptrPanjang) + (*ptrLebar));
+
+    // 6) Cetak nilai panjang dan lebar yang baru
+    cout << "\n--- Nilai Setelah Diubah Melalui Pointer ---" << endl;
+    cout << "Panjang Baru: " << panjang << endl;
+    cout << "Lebar Baru: " << lebar << endl;
+    cout << "Luas Baru: " << luas << endl;
+    cout << "Keliling Baru: " << keliling << endl;
+
+    return 0;
+}
 ```
 ### Output Unguided 2 :
 
 ##### Output 1
-![Output Program 2](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan1_Modul1/LAPRAK/Muhammad_Fauzan-Output-Unguided2.png)
+![Output Program 2](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan1_Modul2/LAPRAK/Muhammad_Fauzan-Output-Unguided2.png)
 
 Program C++ ini berfungsi untuk
 
