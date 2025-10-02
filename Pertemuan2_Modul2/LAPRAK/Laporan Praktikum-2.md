@@ -7,6 +7,7 @@
 ## Guided 1
 
 ### 1. Array1 dimensi 
+
 ```C++
 #include<iostream>
 using namespace std;
@@ -27,6 +28,7 @@ int main(){
 Program C++ sederhana yang 
 
 ### 2. Array2 dimensi 
+
 ```C++
 #include<iostream>
 using namespace std;
@@ -82,6 +84,7 @@ int main(){
 Penjelasan
 
 ### 3. Arrnpointer
+
 ```C++
 #include <iostream>
 using namespace std;
@@ -102,7 +105,7 @@ int main(){
     return 0;
 }
 ```
-Program C++ yang menunjukkan cara kerja pengambilan keputusan dalam kode.
+Program C++ yang 
 
 ### 4. Fungsi prosedur
 ```C++
@@ -135,7 +138,7 @@ using namespace std;
     
  }
 ```
-Sebuah program C++ yang mendemonstrasikan tiga jenis perulangan (loop) dasar: for, while, dan do-while.
+Sebuah program C++ yang 
 
 ## Unguided 
 
@@ -161,7 +164,7 @@ program C++ ini adalah
 ##### Output 1
 ![Output Program 2](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan1_Modul1/LAPRAK/Muhammad_Fauzan-Output-Unguided2.png)
 
-Program C++ ini berfungsi untuk Mengonversi angka 0–100 menjadi teks Bahasa Indonesia menggunakan array satuan, belasan, dan puluhan.
+Program C++ ini berfungsi untuk
 
 ## Kesimpulan
 ...
