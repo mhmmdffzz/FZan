@@ -6,8 +6,7 @@
 
 ## Guided 1
 
-### 1. 
-
+### 1. Array1 dimensi 
 ```C++
 #include<iostream>
 using namespace std;
@@ -27,8 +26,7 @@ int main(){
 ```
 Program C++ sederhana yang 
 
-### 2. 
-
+### 2. Array2 dimensi 
 ```C++
 #include<iostream>
 using namespace std;
@@ -83,8 +81,7 @@ int main(){
 ```
 Penjelasan
 
-### 3. 
-
+### 3. Arrnpointer
 ```C++
 #include <iostream>
 using namespace std;
@@ -107,8 +104,7 @@ int main(){
 ```
 Program C++ yang menunjukkan cara kerja pengambilan keputusan dalam kode.
 
-### 4. 
-
+### 4. Fungsi prosedur
 ```C++
 #include <iostream>
 using namespace std;
