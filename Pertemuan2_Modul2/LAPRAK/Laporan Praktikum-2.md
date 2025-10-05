@@ -142,36 +142,48 @@ Program C++ yang menunjukkan cara mengakses elemen-elemen array menggunakan poin
 ### 4. Fungsi prosedur
 
 ```C++
-#include <iostream>
+#include<iostream>
 using namespace std;
 
- int main(){
-    int angka1;
-    cout << "masukan angka1 : ";
-    cin >> angka1;
-
-    for (int i = 0; i  < angka1; i++){
-      cout << i << " - ";
+int cariMAX(int arr[], int ukuran) {
+    int max = arr[0]; // Inisialisasi nilai maksimum dengan elemen pertama
+    for (int i = 1; i < ukuran; i++) {
+        if (arr[i] > max) {
+            max = arr[i]; // Update nilai maksimum jika ditemukan elemen yang lebih besar
+        }
     }
-    cout << endl;
+    return max;
+}
 
-    int j = 10;
-    while (j > angka1){
-      cout << j << " - ";
-      j--;
-    }
-
-    cout << endl;
-    int k = 10;
-    do {
-      cout << k << " - ";
-    }while (k < angka1);
-
-     return  0;
+void operasiAritmatika(int arr[], int ukuran){
+    int totaljumlah = 0;
+    for(int i = 0; i < ukuran; i++){
+        totaljumlah += arr[i];
+    }  
+    cout << "Total Penjumlahan: " << totaljumlah << endl;
     
- }
+    int totalkali = 1;
+    for(int i = 0; i < ukuran; i++){
+        totalkali *= arr[i];
+    }
+    cout << "Total Perkalian: " << totalkali << endl;
+}
+
+int main(){
+    const int ukuran = 5;
+    int arr[ukuran];
+    for(int i = 0; i < ukuran; i++){
+        cout << "Masukkan nilai array ke-" << i << ": ";
+        cin >> arr[i];
+    }
+    cout << endl;
+    cout << "Nilai terbesar dalam array: " << cariMAX(arr, ukuran) << endl;
+    
+    operasiAritmatika(arr, ukuran);
+    return 0;
+}
 ```
-Sebuah program C++ yang menggunakan tiga jenis perulangan (for, while, dan do-while) untuk mencetak urutan angka berdasarkan input dari pengguna.
+Program C++ yang menunjukkan penggunaan fungsi untuk mencari nilai terbesar serta menghitung total penjumlahan dan perkalian dari elemen-elemen dalam sebuah array.
 
 ## Unguided 
 
